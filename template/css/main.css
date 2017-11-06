@@ -1,0 +1,140 @@
+﻿
+/*************************
+*******Typography******
+**************************/
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700,100&subset=latin,cyrillic-ext,cyrillic);
+
+.product-information{
+    border:4px double #6586e5; /* Параметры границы */
+    word-wrap: break-word;
+}
+.cbalink {
+    display: none;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+textarea{
+    resize: none;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+a:hover {
+    outline: none;
+    text-decoration:none;
+}
+
+a:focus {
+    outline:none;
+    outline-offset: 0;
+}
+p{
+    text-align: center;
+}
+
+a {
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+h2{
+    color:#00acc1;
+}
+h4{
+    color:#00acc1;
+}
+.edittitle{
+    font-size: 22px;
+    color: #00C853;
+}
+.textcenter{
+    text-align: center;
+}
+
+.btn:hover, 
+.btn:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-toggle {
+    background-color: #000;
+}
+table{
+    table-layout: fixed;
+}
+td,th{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.container-my{
+    margin: 0 20px;
+}
+/*************************
+*******Header CSS******
+**************************/
+
+.header_top {
+    background: none repeat scroll 0 0 #F0F0E9;
+}
+
+
+.center{
+    margin: 0;
+}
+
+
+
+/*************************
+*******Footer CSS******
+**************************/
+
+#footer {
+    background: #F0F0E9;
+    height: 55px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+/*************************
+******* btn CSS ********
+**************************/
+
+
+.btn.btn-primary {
+    background:#00acc1;
+    border: 0 none;
+    border-radius: 0;
+    margin-top: 16px;
+}
+
+
+.errorlist{
+    color: #8b1014;
+}
+
+.form-group p{
+    display: inline-block;
+}
+
